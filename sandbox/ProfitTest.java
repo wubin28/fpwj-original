@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 
 public class ProfitTest {
     @Test
-    public void should() {
-        assertEquals(1, 1);
+    public void should_calculate_total_profits_for_the_year() {
+        assertEquals(1, totalProfits);
     }
 }
