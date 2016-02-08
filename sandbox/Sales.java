@@ -1,4 +1,3 @@
-package com.jessitron.fp4j.original;
 
 public class Sales extends MonthByMonthQuantity {
 

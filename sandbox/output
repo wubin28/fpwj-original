@@ -1,10 +1,11 @@
-./Sales.java:3: error: duplicate class: com.jessitron.fp4j.original.Sales
-public class Sales extends MonthByMonthQuantity {
-       ^
-Profit.java:5: error: cannot access Sales
-    private final Sales sales;
-                  ^
-  bad source file: ./Sales.java
-    file does not contain class Sales
-    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
-Error: Could not find or load main class Example
+ProfitTest.java:2: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ProfitTest
+ProfitTest.java:4: error: cannot find symbol
+        assertEquals(1, 1);
+        ^
+  symbol:   method assertEquals(int,int)
+  location: class ProfitTest
+2 errors
