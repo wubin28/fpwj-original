@@ -1,13 +1,9 @@
-ProfitTest.java:27: warning: [deprecation] assertEquals(double,double) in Assert has been deprecated
-        assertEquals(1, totalProfits);
-        ^
-1 warning
 JUnit version 4.11-SNAPSHOT-20120416-1530
 .E
-Time: 0.029
+Time: 0.028
 There was 1 failure:
 1) should_calculate_total_profits_for_the_year(ProfitTest)
-java.lang.AssertionError: Use assertEquals(expected, actual, delta) to compare floating-point numbers
+java.lang.AssertionError: expected:<1.0> but was:<436.4>
 	at ProfitTest.should_calculate_total_profits_for_the_year(ProfitTest.java:27)
 
 FAILURES!!!
