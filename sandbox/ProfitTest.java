@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class ProfitTest {
     @Test
     public void should_calculate_total_profits_for_the_year() {
-        final static double[] EXPECTED_SALES_JAN_TO_DEC =
+        final double[] EXPECTED_SALES_JAN_TO_DEC =
             new double[] { 42.0, 45.6, 43.6, 50.2, 55.6, 54.7,
                     58.0, 57.3, 62.0, 60.3, 71.2, 88.8};
         final Sales sales = new Sales(EXPECTED_SALES_JAN_TO_DEC);
