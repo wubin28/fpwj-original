@@ -1,6 +1,8 @@
-ProfitTest.java:7: error: cannot find symbol
+ProfitTest.java:7: error: modifier static not allowed here
+        final static double[] EXPECTED_SALES_JAN_TO_DEC =
+                              ^
+ProfitTest.java:27: warning: [deprecation] assertEquals(double,double) in Assert has been deprecated
         assertEquals(1, totalProfits);
-                        ^
-  symbol:   variable totalProfits
-  location: class ProfitTest
+        ^
 1 error
+1 warning
