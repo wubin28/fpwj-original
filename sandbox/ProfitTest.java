@@ -24,6 +24,6 @@ public class ProfitTest {
             totalProfits += profit.valueAt(i);
         }
 
-        assertEquals(1, totalProfits, 0.001);
+        assertEquals(436.4, totalProfits, 0.001);
     }
 }
