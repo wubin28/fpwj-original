@@ -1,11 +1,6 @@
-ProfitTest.java:2: error: cannot find symbol
-    @Test
-     ^
-  symbol:   class Test
-  location: class ProfitTest
-ProfitTest.java:4: error: cannot find symbol
-        assertEquals(1, 1);
-        ^
-  symbol:   method assertEquals(int,int)
-  location: class ProfitTest
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.
+Time: 0.012
+
+OK (1 test)
+
