@@ -1,10 +1,10 @@
-ProfitTest.java:7: error: invalid method declaration; return type required
-        assertEquals(1, 1);
-        ^
-ProfitTest.java:7: error: illegal start of type
-        assertEquals(1, 1);
-                     ^
-ProfitTest.java:7: error: illegal start of type
-        assertEquals(1, 1);
-                        ^
-3 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.E
+Time: 0.009
+There was 1 failure:
+1) initializationError(ProfitTest)
+java.lang.Exception: No runnable methods
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
