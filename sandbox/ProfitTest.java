@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 public class ProfitTest {
     @Test
     public void should_calculate_total_profits_for_the_year() {
+        // given
         final double[] EXPECTED_SALES_JAN_TO_DEC =
             new double[] { 42.0, 45.6, 43.6, 50.2, 55.6, 54.7,
                     58.0, 57.3, 62.0, 60.3, 71.2, 88.8};
@@ -19,11 +20,13 @@ public class ProfitTest {
                 fixedCosts
         );
 
+        // when
         double totalProfits = 0.0;
         for(int i = 1; i <= 12; i++) {
             totalProfits += profit.valueAt(i);
         }
 
+        // then
         assertEquals(436.4, totalProfits, 0.001);
     }
 }
